@@ -1,0 +1,71 @@
+body{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    transform: translateY(30%);
+}
+
+.profile{
+    width: 8rem;
+    height: 8rem;
+    background-image: url('naverimg.png');
+    background-size: 130px;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    transform: translateY(50%);
+    transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.banner{
+    background-image: url("bgimgcenter.png");
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: #fff;
+    max-width: 360px;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 1.5rem rgba(1, 0, 62, 0.5);
+}
+
+.name{
+    text-align: center;
+    padding-top: 75px;
+    color: #01003e;
+}
+
+.follow-btn{
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.follow-btn button{
+    font-size: medium;
+    font-weight: bold;
+    background-color: #01003e;
+    border: none;
+    padding: 0.7rem;
+    outline: none;
+    border-radius: 50px;
+    color: #fff;
+ 
+
+}
+
+.desc{
+    padding: 2.1em 3.1em 2.7em 3.1em;
+    color: #333;
+}
+
+.profile:hover{
+    transform: translateY(50%) scale(1.2);
+}
+
+.follow-btn button:hover{
+    background-color: #13e46d;
+    color: #fff;
+}
